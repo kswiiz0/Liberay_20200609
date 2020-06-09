@@ -1,7 +1,8 @@
 package com.phis.liberay_20200609
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bumptech.glide.Glide
+
 
 class LargePhotoActivity : BaseActivity() {
 
@@ -13,9 +14,10 @@ class LargePhotoActivity : BaseActivity() {
 
     override fun setValues() {
 
+
     }
 
     override fun setupEvents() {
-        
+
     }
 }
