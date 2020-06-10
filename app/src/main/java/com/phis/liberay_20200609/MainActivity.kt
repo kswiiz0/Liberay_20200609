@@ -51,7 +51,7 @@ class MainActivity : BaseActivity() {
                 override fun onPermissionDenied(deniedPermissions: List<String>) {
                     Toast.makeText(
                         this@MainActivity,
-                        "Permission Denied\n$deniedPermissions",
+                        "전화권한이 거부되어 전화걸리 실패되었습니다.",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
